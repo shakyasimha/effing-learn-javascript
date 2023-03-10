@@ -1,0 +1,35 @@
+body {
+    background-color: #bee;
+}
+
+.header-class {
+    text-align: center;
+    color: #092c5c;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.counter-para {
+    font-size: 5em;
+    font-family: 'JetBrains Mono', monospace;
+    color: #092c5c;
+}
+
+.custom-button {
+    background-color: #bee;
+    color: #092c5c;
+    border: 0px;
+    padding: 2px 2px 2px 2px;
+    margin: 60px;
+    font-size: 3em;
+}
+
+.custom-border:hover {
+    opacity: 50%
+}

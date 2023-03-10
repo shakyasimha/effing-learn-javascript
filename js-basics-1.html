@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head> 
+        <title> JavaScript basics 1 </title> 
+    </head>
+
+    <body>
+        <h2> JavaScript Basics 1 </h2>
+
+        <p id="para-1"> Quick Brown Fox Jumps Over A Lazy Dog </p>
+        <button id="button-1">Click to Change</button>
+
+        <script>
+            let para = document.querySelector('#para-1');
+            let button = document.querySelector('#button-1');
+            let text1 = "Quick Brown Fox Jumps Over A Lazy Dog";
+            let text2 = "Round The Ragged Rocks The Ragged Rascal Ran";
+
+            button.addEventListener('click', ()=> {
+                if(para.innerText == text1) {
+                    para.innerText = text2;
+                }
+                else {
+                    para.innerText = text1;
+                }
+            });
+        </script>
+    </body>
+</html>
